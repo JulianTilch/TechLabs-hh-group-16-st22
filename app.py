@@ -4,7 +4,7 @@ import numpy as np
 
 
 def load_model():
-    with open('final_model.sav', 'rb') as file:
+    with open('final_model2.sav', 'rb') as file:
         data = pickle.load(file)
     return data
 
